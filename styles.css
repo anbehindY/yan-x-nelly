@@ -1,1 +1,17 @@
- 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 80%;
+    height: 100vh;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+#text-box{
+    display: flex;
+    flex-direction: column;
+}
