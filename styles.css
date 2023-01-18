@@ -2,16 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(pexels-james-wheeler-1486974.jpg);
 }
 form{
     width: 80%;
-    height: 100vh;
+    padding: 20px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background: #000000;
 }
 .form-group{
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
-#text-box{
-    display: flex;
-    flex-direction: column;
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group select{
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+.form-group input[type="radio"],
+.form-group input[type="checkbox"]{
+    margin: 10px;
+}
+.form-group textarea{
+    margin:  10px 0px;
+}
+
+.form-group input[type="submit"]{
+    padding: 10px 0px;
+    color: #ffffff;
+    background: #008000;
 }
