@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yan x Nelly</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1 id="title">
@@ -14,10 +15,33 @@
         Thank you for your time!
     </p>
     <form id="survey-form">
-        <input id="name" type="text" required />
-        <input id="email" type="email" required />
-        <input id="number" type="number" />
-    </form>
+        <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required />
+
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required />
+
+        <label for="number" id="number-label">Number</label>
+        <input id="number" placeholder="Enter a number" type="number" />
+
+
+        <select   name="option" id="dropdown">
+             <option value="option1">option1</option>
+             <option value="option2">option2</option>
+        </select>
+
+        <input type="radio" name="radioName" id="radioName">
+        <input type="radio" name="radioName2" id="radioName2">
+
+        <input type="checkbox" name="checkName" id="checkName" value="checkName">
+        <input type="checkbox" name="checkName2" id="checkName2" value="checkName2">
+        <input type="checkbox" name="checkName3" id="checkName3" value="checkName3">
+        <input type="checkbox" name="checkName4" id="checkName4" value="checkName4">
+        
+
+        <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="submit" id="submit">
     </form>
 </body>
 </html>
